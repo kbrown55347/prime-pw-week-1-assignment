@@ -3,15 +3,15 @@ body {
   background-color: #8ebd8c;
 }
 /* Make the header and footer a different color from the background */
-/* Align the h1 containing your name in the center of the header*/
-/* Make your p tag a different color and italic */
+/* Align the h1 containing your name in the center of the header */
 header {
   padding: 2px;
   text-align: center;
   background-image: url("https://bhf-cdn.azureedge.net/bhf-blob-prod/0012674_fintex-light-brown-woven-texture_600.jpeg");
 }
+/* Make your p tag a different color and italic */
+/* I also adjusted the footer so it stays at bottom of the webpage */
 footer {
-/* I adjusted the footer so it stays at bottom of the webpage */
   position: fixed;
   padding: 2px;
   bottom: 5px;
@@ -29,7 +29,7 @@ img {
 ul {
   font-family: Papyrus;
 }
-/* I created space between main content and header/footer */
+/* I created space between the photo/unordered list and header/footer */
 main {
   margin-top: 3%;
   margin-left: 3%;
