@@ -1,11 +1,38 @@
 /* Give your page a fun background color */
-
+body {
+  background-color: #8ebd8c;
+}
 /* Make the header and footer a different color from the background */
-
 /* Align the h1 containing your name in the center of the header*/
-
 /* Make your p tag a different color and italic */
-
+header {
+  padding: 2px;
+  text-align: center;
+  background-image: url("https://bhf-cdn.azureedge.net/bhf-blob-prod/0012674_fintex-light-brown-woven-texture_600.jpeg");
+}
+footer {
+/* I adjusted the footer so it stays at bottom of the webpage */
+  position: fixed;
+  padding: 2px;
+  bottom: 5px;
+  width: 100%;
+  color: #6F4E37;
+  text-align: center;
+  font-style: italic;
+  background-image: url("https://bhf-cdn.azureedge.net/bhf-blob-prod/0012674_fintex-light-brown-woven-texture_600.jpeg");
+}
 /* Put a border around your image */
-
+img {
+  border: 5px solid #6F4E37;
+}
 /* Change the font-family of your list */
+ul {
+  font-family: Papyrus;
+}
+/* I created space between main content and header/footer */
+main {
+  margin-top: 3%;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-bottom: 3%;
+}
